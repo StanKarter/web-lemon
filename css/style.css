@@ -5,7 +5,7 @@ BREAKPOINTS
 *********************/
 
 @font-face {
-  font-family: "JosefinSans";
+  font-family: "Josefin Sans";
   font-display: swap;
   src: url("../fonts/JosefinSans-Light.woff") format("woff"), url("../fonts/JosefinSans-Light.woff2") format("woff2");
   font-weight: 300;
@@ -13,7 +13,7 @@ BREAKPOINTS
 }
 
 @font-face {
-  font-family: "JosefinSans";
+  font-family: "Josefin Sans";
   font-display: swap;
   src: url("../fonts/JosefinSans-LightItalic.woff") format("woff"), url("../fonts/JosefinSans-LightItalic.woff2") format("woff2");
   font-weight: 300;
@@ -21,7 +21,7 @@ BREAKPOINTS
 }
 
 @font-face {
-  font-family: "JosefinSans";
+  font-family: "Josefin Sans";
   font-display: swap;
   src: url("../fonts/JosefinSans-Regular.woff") format("woff"), url("../fonts/JosefinSans-Regular.woff2") format("woff2");
   font-weight: 400;
@@ -29,7 +29,7 @@ BREAKPOINTS
 }
 
 @font-face {
-  font-family: "JosefinSans";
+  font-family: "Josefin Sans";
   font-display: swap;
   src: url("../fonts/JosefinSans-SemiBold.woff") format("woff"), url("../fonts/JosefinSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
@@ -37,7 +37,7 @@ BREAKPOINTS
 }
 
 @font-face {
-  font-family: "JosefinSans";
+  font-family: "Josefin Sans";
   font-display: swap;
   src: url("../fonts/JosefinSans-Bold.woff") format("woff"), url("../fonts/JosefinSans-Bold.woff2") format("woff2");
   font-weight: 700;
@@ -537,6 +537,7 @@ img {
   -ms-flex-item-align: center;
       align-self: center;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -547,7 +548,6 @@ img {
 .label__title {
   font-size: 20px;
   font-weight: 400;
-  font-style: italic;
   color: black;
   line-height: 1;
   padding-bottom: 10px;
@@ -966,7 +966,6 @@ img {
   color: black;
   line-height: 1.2;
   font-weight: 400;
-  font-style: italic;
   text-transform: capitalize;
 }
 
@@ -1538,7 +1537,6 @@ time {
 
 .recipeSidebar-element__content {
   font-size: 12px;
-  font-family: "JosefinSans";
   color: black;
   line-height: 1.2;
 }
